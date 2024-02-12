@@ -1,8 +1,4 @@
 <template>
-  <div>
-    <div class="container">
-      <h1>Product List</h1>
-        <div class="table-container">
           <table class="table">
             <thead>
               <tr>
@@ -17,8 +13,6 @@
               </tr>
             </tbody>
           </table>
-        </div>
-      </div>
         <h2>Add or Remove Product</h2>
         <div>
           <button @click="addProduct">Add</button>
